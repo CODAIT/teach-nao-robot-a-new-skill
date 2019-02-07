@@ -41,7 +41,7 @@ $ ls
   $ ifconfig | grep inet | grep 169 | cut -d" " -f2
   ```
   > Replace `169` with the first three digits of your robot's IP address.
-* Note thye IP address. You will need it to customize the Choregraphe scripts, so your robot can connect to the host machine.
+* Note the IP address. You will need it to customize the Choregraphe scripts, so your robot can connect to the host machine.
 
 #### Open the example project in Choregraphe, customize and run the behavior
 
@@ -52,7 +52,7 @@ $ ls
   ![The example project was imported](images/object_detection_example_behavior.png)
 
 * Edit the `environment_setup` Python box using the script editor.
-  * Replace the default value of the `resnet_ip_port` variable with the IP address and port number of the microservice. If you followed the instructions in section ["Run the object detection "skill" microservice on your local machine"](https://github.com/CODAIT/teach-nao-robot-a-new-skill/new/master#run-the-object-detection-skill-microservice-on-your-local-machine) to launch the microservice, the port number is 6050.
+  * Replace the default value of the `resnet_ip_port` variable with the IP address and port number of the microservice. If you followed the instructions in section ["Run the object detection "skill" microservice on your local machine"](#run-the-object-detection-skill-microservice-on-your-local-machine) to launch the microservice, the port number is `6050`.
     ```
     # ---------------------------------
     # define globals
